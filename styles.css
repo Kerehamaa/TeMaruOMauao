@@ -65,19 +65,35 @@ button:hover, .hero .content .btn:hover {
     text-decoration: none; /* Ensures no underline on hover */
 }
 
-/* Button Styles - No Underline */
+/* Main Button Style */
 .btn1 {
-    background-color: #feda62;
-    color: #2957a5;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin-top: 20px;
-    font-size: 30px;
-    text-align: center;
-    display: inline-block;
     cursor: pointer;
-    font-family: 'Oswald', sans-serif;
-    text-decoration: none; /* Ensures no underline */
+    display: inline-block;
+    width: 300px; /* Fixed width */
+    height: 300px; /* Fixed height */
+    color: white;
+    text-decoration: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    font-size: 40px;
+    line-height: 300px; /* Center text vertically */
+    margin-right: 10px; /* Space between buttons */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Stack buttons vertically on smaller screens */
+@media screen and (max-width: 650px) {
+    .hero .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn1 {
+        width: 80%; /* Make the button width responsive */
+        margin: 10px 0; /* Vertical margin for spacing */
+    }
 }
 
 /* Button Hover Effects - No Underline */
