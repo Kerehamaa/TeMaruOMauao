@@ -77,6 +77,7 @@ button:hover, .hero .content .btn:hover {
     background-repeat: no-repeat;
     border-radius: 5px;
     font-size: 40px;
+    font-family: 'Bebas Neue', sans-serif;
     line-height: 300px; /* Center text vertically */
     margin-right: 10px; /* Space between buttons */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
