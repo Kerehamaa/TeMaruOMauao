@@ -71,7 +71,7 @@ button:hover, .hero .content .btn:hover {
     display: inline-block;
     width: 300px; /* Fixed width */
     height: 300px; /* Fixed height */
-    color: white;
+    color: #2957a5;
     text-decoration: none;
     background-size: cover;
     background-repeat: no-repeat;
