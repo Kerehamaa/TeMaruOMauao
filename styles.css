@@ -103,7 +103,7 @@ button:hover, .hero .content .btn:hover {
     color: #2957a5;
     transition: 0.3s ease;
     text-decoration: none; /* Ensures no underline on hover */
-     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
+     text-shadow: 2px 2px 4px rgba(255, 255, 255);
 }
 
 /* Logo Styles */
