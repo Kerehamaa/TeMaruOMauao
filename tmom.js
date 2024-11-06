@@ -1,17 +1,1 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const pages = ["home", "more", "info"];
-    
-    pages.forEach(page => {
-        const element = document.getElementById(page);
-        if (element) {
-            element.addEventListener("click", function (event) {
-                event.preventDefault(); // Prevents the default `href="#"` action
-                window.location.href = page + '.html';
-            });
-        } else {
-            console.warn(`Element with ID '${page}' not found.`);
-        }
-    });
-});
-
-console.log("Reed K. Maharen")
+document.addEventListener("DOMContentLoaded",function(){const e=["home","more","info"];e.forEach(e=>{const t=document.getElementById(e);t?t.addEventListener("click",function(t){t.preventDefault(),window.location.href=e+".html"}):console.warn(`Element with ID '${e}' not found.`)})});console.log("Reed K. Maharen");
