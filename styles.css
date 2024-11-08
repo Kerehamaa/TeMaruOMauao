@@ -1,31 +1,6 @@
 /* Import Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Muli:wght@400;700&family=Nunito:wght@400;700&family=Oswald:wght@400;700&family=Permanent+Marker&family=Quicksand:wght@400;700&family=Raleway:wght@400;700&display=swap');
 
-/* Custom Scrollbar for WebKit Browsers (Chrome, Safari, Opera) */
-body::-webkit-scrollbar {
-    width: 12px; /* Width of the scrollbar */
-}
-
-body::-webkit-scrollbar-track {
-    background-color: #2957a5; /* Scrollbar track color */
-    border-radius: 10px;
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: #feda62; /* Scrollbar thumb (slider) color */
-    border-radius: 10px;
-    border: 2px solid #2957a5; /* Optional border to match the track */
-}
-
-body::-webkit-scrollbar-thumb:hover {
-    background-color: #e5b94e; /* Slightly darker shade on hover */
-}
-
-/* Custom Scrollbar for Firefox */
-body {
-    scrollbar-width: thin; /* Makes the scrollbar thinner */
-    scrollbar-color: #feda62 #2957a5; /* thumb color | track color */
-}
 
 
 /* General Styles */
